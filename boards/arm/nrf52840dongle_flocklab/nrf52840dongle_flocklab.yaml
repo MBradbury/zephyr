@@ -1,0 +1,21 @@
+identifier: nrf52840dongle_flocklab
+name: nRF52840-Dongle-Flocklab
+type: mcu
+arch: arm
+ram: 256
+flash: 1024
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - usb_cdc
+  - ble
+  - pwm
+  - spi
+  - watchdog
+  - counter
+  - netif:openthread
+  - gpio
